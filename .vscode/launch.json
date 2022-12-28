@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/kingbbq/src/SchaufensterRakete/.pio/build/pico/firmware.elf",
+            "projectEnvName": "pico",
+            "toolchainBinDir": "/Users/kingbbq/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/kingbbq/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/kingbbq/src/SchaufensterRakete/.pio/build/pico/firmware.elf",
+            "projectEnvName": "pico",
+            "toolchainBinDir": "/Users/kingbbq/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/kingbbq/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/Users/kingbbq/src/SchaufensterRakete/.pio/build/pico/firmware.elf",
+            "projectEnvName": "pico",
+            "toolchainBinDir": "/Users/kingbbq/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/kingbbq/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd",
+            "loadMode": "manual"
+        }
+    ]
+}

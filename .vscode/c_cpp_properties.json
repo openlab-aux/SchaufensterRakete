@@ -1,0 +1,41 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/kingbbq/src/SchaufensterRakete/include",
+                "/Users/kingbbq/src/SchaufensterRakete/src",
+                "/Users/kingbbq/src/SchaufensterRakete/lib/adafruit_hid",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/kingbbq/src/SchaufensterRakete/include",
+                    "/Users/kingbbq/src/SchaufensterRakete/src",
+                    "/Users/kingbbq/src/SchaufensterRakete/lib/adafruit_hid",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=133000000L",
+                "PLATFORMIO=60104",
+                "ARDUINO_RASPBERRY_PI_PICO",
+                "ARDUINO_ARCH_RP2040",
+                ""
+            ],
+            "compilerPath": "/Users/kingbbq/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m0plus",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
