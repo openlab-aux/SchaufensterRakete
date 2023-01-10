@@ -34,3 +34,14 @@ Der Code nutzt aktuell die Befehle press() und release(): es wird beim Drücken 
 
 Wenn das Spiel 90 Sekunden nicht gespielt wird, geht es auf den Start-Screen zurück: hier muss 1 mal Enter gedrückt werden, um das schiel zu starten. Da wir nur 5 Taster hatten, haben wir das in der Software so gelöst, dass nach 90 Sekunden nicht benutzen immer erst 2 Enter geschickt werden.
 
+
+# Infos von Mario
+
+Highscores solltest du aus den PlayerPrefs lesen können:
+https://docs.unity3d.com/ScriptReference/PlayerPrefs.html (Company: Playables, AppId: net.playables.rakete)
+
+es gibt für jeden Level einen Eintrag der die Sekunden speichert, zb. "level_0": "10.542" etc. Wenn es keinen Highscore gibt, gibt es keinen Eintrag.
+
+Bin jetzt nicht sicher welche Version ihr habt. Bei der aktuellen (siehe itch.io link unten) gibts eine Möglichkeit, den "exhibition mode" einzustellen, der die Levelauswahl überspringt und automatisch startet wenn es einen Input der 5 Tasten gibt. Inhaltlich (Levels etc.) sind die Versionen gleich.
+
+Für diesen Modus muss man das Spiel mit "-exhibition" in der command line starten, also zb. "rakete.exe -exhibition" auf Windows. Der 90-Sekunden Reset passiert in dieser Version nur mit aktivierten Exhibition Mode (bei der alten war das immer der Fall).
