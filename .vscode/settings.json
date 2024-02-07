@@ -1,13 +1,14 @@
 {
     "python.linting.pylintEnabled": false,
     "python.analysis.diagnosticSeverityOverrides": {
-        "reportMissingModuleSource": "none"
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
     },
     "python.languageServer": "Pylance",
     "python.analysis.extraPaths": [
-        "/Users/kingbbq/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.19-darwin-x64/boards/0x239A/0x80F4",
-        "/Users/kingbbq/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.19-darwin-x64/stubs",
-        "/Users/kingbbq/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20221228/adafruit-circuitpython-bundle-py-20221228/lib"
+        "/Users/kingbbq/.vscode/extensions/joedevivo.vscode-circuitpython-0.2.0-darwin-arm64/boards/0x239A/0x80F4",
+        "/Users/kingbbq/.vscode/extensions/joedevivo.vscode-circuitpython-0.2.0-darwin-arm64/stubs",
+        "/Users/kingbbq/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20240206/adafruit-circuitpython-bundle-py-20240206/lib"
     ],
     "circuitpython.board.version": null,
     "circuitpython.board.vid": "0x239A",
